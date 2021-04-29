@@ -1,0 +1,110 @@
+* .content{
+  box-sizing: border-box;
+  font-family: "proxima-nova-condensed", "Helvetica", arial, sans-serif;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "proxima-nova", "Helvetica", arial, sans-serif;
+  background: black;
+}
+.hey {
+  color: #FF671F;
+  font-size: 0.9em;
+  font-weight: 700;
+  border-bottom: 2px solid #FF671F;
+}
+nav {
+  color: white;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 5px 5px 15px rgb(255, 103, 31, 0.5);
+  z-index: 1;
+}
+.logo img {
+  width: 45px;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+#main {
+  width: 100%;
+  height: 25vh;
+  position: relative;
+}
+.menu li a {
+  color: gray;
+  width: 40px;
+  line-height: 43px;
+  margin: 3px;
+  padding: 0px 22px;
+  font-size: 0.8em;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.image {
+  width:500px;
+  height: 500px;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.content {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  justify-content: space-around;
+  position: absolute;
+}
+.main-text h1 {
+  color: #FF671F;
+  font-size: 3.5em;
+  margin: 0px 0px 10px 0px;
+  line-height: 60px;
+}
+.main-text p {
+  color: white;
+}
+.main-text {
+  width: 500px;
+}
+.resume {
+  color: white;
+  background-color: red;
+  width: 190px;
+  height: 44px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  box-shadow: 5px 5px 15px rgb(255, 103, 31, 0.5);
+}
+.resume:hover{
+  background-color: #FF671F;
+  transition: all ease 0.2s;
+}
+.menu li a:hover {
+  color: white;
+  transition: all ease 0.2s;
+}
+.hey:hover {
+  color: red;
+  font-size: 0.9em;
+  border-bottom: 2px solid red;
+  transition: all ease 0.2s;
+}
